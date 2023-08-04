@@ -1,0 +1,37 @@
+{
+    "add_offline": false,
+    "auth": "oauth2_user",
+    "authentication_url": "https://accounts.google.com/o/oauth2/auth",
+    "calls": {
+        "AAC": {
+            "initialized": true,
+            "method": "get",
+            "name": "List of Contacts",
+            "params": {
+                "AAF": {
+                    "key": "personFields",
+                    "private": true,
+                    "value": "names,emailAddresses"
+                },
+                "AAG": {
+                    "key": "pageSize",
+                    "private": true,
+                    "value": "2000"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1504068822541x331018039787520000.plugin_api.AAC",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"List of Contact\",\"fields\":{\"_p_connections\":{\"ret_value\":\"list.api.1504068822541x331018039787520000.plugin_api.AAC.connections\",\"caption\":\"connections\",\"path\":[\"connections\"]},\"_p_totalPeople\":{\"ret_value\":\"number\",\"caption\":\"totalPeople\",\"sample_value\":20,\"path\":[\"totalPeople\"]},\"_p_totalItems\":{\"ret_value\":\"number\",\"caption\":\"totalItems\",\"sample_value\":20,\"path\":[\"totalItems\"]}}},\"plugin_api.AAC.connections\":{\"caption\":\"List of Contacts connection\",\"fields\":{\"_p_resourceName\":{\"ret_value\":\"text\",\"caption\":\"resourceName\",\"sample_value\":\"people/c222860254661834072\",\"path\":[\"resourceName\"]},\"_p_etag\":{\"ret_value\":\"text\",\"caption\":\"etag\",\"sample_value\":\"%Egc3CT4BAj0uGgQCAQcFIgx5elBlaExldEhQcz0=\",\"path\":[\"etag\"]},\"_p_names\":{\"ret_value\":\"list.api.1504068822541x331018039787520000.plugin_api.AAC.names\",\"caption\":\"names\",\"path\":[\"names\"]},\"_p_emailAddresses\":{\"ret_value\":\"list.api.1504068822541x331018039787520000.plugin_api.AAC.emailAddresses\",\"caption\":\"emailAddresses\",\"path\":[\"emailAddresses\"]}}},\"plugin_api.AAC.names\":{\"caption\":\"List of Contacts name\",\"fields\":{\"_p_metadata.primary\":{\"ret_value\":\"boolean\",\"caption\":\"metadata primary\",\"sample_value\":true,\"path\":[\"metadata\",\"primary\"]},\"_p_metadata.source.type\":{\"ret_value\":\"text\",\"caption\":\"metadata source type\",\"sample_value\":\"CONTACT\",\"path\":[\"metadata\",\"source\",\"type\"]},\"_p_metadata.source.id\":{\"ret_value\":\"text\",\"caption\":\"metadata source id\",\"sample_value\":\"317c23889abf558\",\"path\":[\"metadata\",\"source\",\"id\"]},\"_p_displayName\":{\"ret_value\":\"text\",\"caption\":\"displayName\",\"sample_value\":\"Cristina J.Colt\",\"path\":[\"displayName\"]},\"_p_familyName\":{\"ret_value\":\"text\",\"caption\":\"familyName\",\"sample_value\":\"Colt\",\"path\":[\"familyName\"]},\"_p_givenName\":{\"ret_value\":\"text\",\"caption\":\"givenName\",\"sample_value\":\"Cristina\",\"path\":[\"givenName\"]},\"_p_middleName\":{\"ret_value\":\"text\",\"caption\":\"middleName\",\"sample_value\":\"J.\",\"path\":[\"middleName\"]},\"_p_displayNameLastFirst\":{\"ret_value\":\"text\",\"caption\":\"displayNameLastFirst\",\"sample_value\":\"Colt, Cristina J.\",\"path\":[\"displayNameLastFirst\"]},\"_p_unstructuredName\":{\"ret_value\":\"text\",\"caption\":\"unstructuredName\",\"sample_value\":\"Cristina J.Colt\",\"path\":[\"unstructuredName\"]}}},\"plugin_api.AAC.emailAddresses\":{\"caption\":\"List of Contacts emailAddresse\",\"fields\":{\"_p_metadata.primary\":{\"ret_value\":\"boolean\",\"caption\":\"metadata primary\",\"sample_value\":true,\"path\":[\"metadata\",\"primary\"]},\"_p_metadata.source.type\":{\"ret_value\":\"text\",\"caption\":\"metadata source type\",\"sample_value\":\"CONTACT\",\"path\":[\"metadata\",\"source\",\"type\"]},\"_p_metadata.source.id\":{\"ret_value\":\"text\",\"caption\":\"metadata source id\",\"sample_value\":\"204cc0e00a45d94a\",\"path\":[\"metadata\",\"source\",\"id\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"SanaGarea@gmail.com\",\"path\":[\"value\"]}}}}",
+            "url": "https://people.googleapis.com/v1/people/me/connections"
+        }
+    },
+    "email_path": "email",
+    "generate_token_from_code_uri": "https://accounts.google.com/o/oauth2/token",
+    "human": "Google Contacts",
+    "id_path": "id",
+    "oauth_user_data_call": "https://www.googleapis.com/oauth2/v1/userinfo?alt=json",
+    "scope": "https://www.googleapis.com/auth/contacts https://www.googleapis.com/auth/contacts.readonly https://www.googleapis.com/auth/directory.readonly https://www.googleapis.com/auth/profile.agerange.read https://www.googleapis.com/auth/profile.emails.read https://www.googleapis.com/auth/profile.language.read https://www.googleapis.com/auth/user.addresses.read https://www.googleapis.com/auth/user.birthday.read https://www.googleapis.com/auth/user.emails.read https://www.googleapis.com/auth/user.gender.read https://www.googleapis.com/auth/user.organization.read https://www.googleapis.com/auth/user.phonenumbers.read https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile",
+    "token_param_name": "access_token"
+}

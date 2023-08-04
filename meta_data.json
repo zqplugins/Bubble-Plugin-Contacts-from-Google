@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "email",
+        "1": "social network"
+    },
+    "description": "Lets you list and manage the authenticated user's Contacts and retrieve profile information for authenticated users and their contacts.\n\nIf you have questions about this plugin or need any help, please reach out at https://forum.zeroqode.com\n\n🔔 Get our 10 Top Plugins Bundle with 10 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- #1 Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- #1 AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone input Number with formatting\n- Advanced Multi Uploader\n- Video player\n- Dynamic Height & Width of Elements\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/contacts-from-google-plugin-for-bubble--1633073793348x398147827728752000\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//s3.amazonaws.com/appforest_uf/f1626447476155x718337221862738800/Google_Contacts_Offline.gif",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Contacts from Google",
+    "plugin_instructions": "1. Get your App ID and App Secret by registering your application at\nhttps://console.developers.google.com\n2. Add these URLs to the list of callback URIs for your app in the Google developer console (replace \"yourapp\" with your appname and \"pagename\" with the name of the page where the workflow to authenticate the user is run from.\n- https://yourapp.bubbleapps.io/version-test/pagename?debug_mode=true\n- https://yourapp.bubbleapps.io/pagename?debug_mode=true\n- https://yourapp.bubbleapps.io/version-test/pagename\n- https://yourapp.bubbleapps.io/pagename\n3. To authenticate the user, please create a button with workflow \"account-signup/login with a social network and choose \"google contacts\". After the user has authenticated and authorized your app to access their contacts, the data will become available in Repeating Group."
+}
